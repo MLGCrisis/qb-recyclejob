@@ -325,7 +325,7 @@ end
 
 local function SetLocationBlip()
   local RecycleBlip = AddBlipForCoord(Config.OutsideLocation.x, Config.OutsideLocation.y, Config.OutsideLocation.z)
-  SetBlipSprite(RecycleBlip, 365)
+  SetBlipSprite(RecycleBlip, 0)
   SetBlipColour(RecycleBlip, 2)
   SetBlipScale(RecycleBlip, 0.8)
   SetBlipAsShortRange(RecycleBlip, true)
